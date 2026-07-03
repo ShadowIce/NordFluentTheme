@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="NordFluentTheme" GUID="{495f14f0-c550-46e2-8432-bc3ee6a66681}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+  <Theme Name="NordFluentTheme" GUID="{495f14f0-c550-46e2-8432-bc3ee6a66681}" BaseGUID="{14bc1d29-79c3-458d-815d-8830012388e4}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF2E3440" />
@@ -11040,6 +11040,9 @@
       <Color Name="EnvironmentBackground">
         <Background Type="CT_RAW" Source="FF2E3440" />
       </Color>
+	  <Color Name="EnvironmentBody">
+		<Background Type="CT_RAW" Source="FF2E3440" />
+	  </Color>
       <Color Name="EnvironmentBadge">
         <Background Type="CT_RAW" Source="FF434C5E" />
       </Color>
@@ -11049,6 +11052,18 @@
       <Color Name="EnvironmentBorderInactive">
         <Background Type="CT_RAW" Source="FF454545" />
       </Color>
+	  <Color Name="EnvironmentHeader">
+		<Background Type="CT_RAW" Source="FF434C5E" />
+	  </Color>
+	  <Color Name="EnvironmentHeaderInactive">
+		<Background Type="CT_RAW" Source="FF3B4252" />
+	  </Color>
+	  <Color Name="EnvironmentTab">
+		<Background Type="CT_RAW" Source="FF434C5E" />
+	  </Color>
+	  <Color Name="EnvironmentTabInactive">
+		<Background Type="CT_RAW" Source="FF3B4252" />
+	  </Color>
       <Color Name="EnvironmentIndicator">
         <Background Type="CT_RAW" Source="66757575" />
       </Color>
